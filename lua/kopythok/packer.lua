@@ -111,10 +111,11 @@ require('lazy').setup({
 
   {
     -- Theme inspired by Atom
-    'Mofiqul/dracula.nvim',
+    -- 'Mofiqul/dracula.nvim',
+    'catppuccin/nvim',
     priority = 1000,
     config = function()
-      vim.cmd.colorscheme 'dracula'
+      vim.cmd.colorscheme 'catppuccin-macchiato'
     end,
   },
 
@@ -124,8 +125,8 @@ require('lazy').setup({
     -- See `:help lualine.txt`
     opts = {
       options = {
-        icons_enabled = false,
-        theme = 'dracula',
+        icons_enabled = true,
+        theme = 'catppuccin',
         component_separators = '|',
         section_separators = '',
       },

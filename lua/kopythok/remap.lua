@@ -1,5 +1,3 @@
-vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
-
 -- [[ Basic Keymaps ]]
 -- Keymaps for better default experience
 -- See `:help vim.keymap.set()`
@@ -17,3 +15,4 @@ vim.keymap.set('n', '<leader>q', vim.diagnostic.setloclist, { desc = 'Open diagn
 
 -- Primeagen's greatest remap ever
 vim.keymap.set("x", "<leader>p", "\"_dP")
+vim.keymap.set("n", "<leader>pv", vim.cmd.Ex)
